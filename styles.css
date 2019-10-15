@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 * {
-    margin: 5px;
+    margin: 8px;
     padding: 0px;
     box-sizing: 0px;
 }
@@ -32,6 +32,16 @@ body {
     letter-spacing: 0px;
     font-size: 15px;
 }
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    color: black;
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+
 .site-header{
     display: flex;
 	flex-direction: column;
@@ -65,8 +75,39 @@ body {
     font-size: 13px;
 }
 
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
 
+.button {
+    /* border-top: 1px solid #d81919; */
+    background: #ff0063;
+    padding: 10.5px 30px;
+    border-radius: 21px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+    transition-property: left, background-color;
+    transition-duration: .4s, .4s;
+    transition-timing-function: ease, ease-out;
+    }
+ .button:hover {
+    border-color: #ff0063;
+    background: #ffffff;
+    color: #ff0063;
+    }
+ .button:active {
+    border-top-color: #ffffff;
+    background: #ffffff;
+    
+    }
 
+    .main-body {
+
+    }
 
 /* .logo {
     display: flex;
